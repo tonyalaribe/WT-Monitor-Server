@@ -1,0 +1,13 @@
+password_encryption_cost = 5
+log_file = "/storage/monitor.log"
+port = "8181"
+
+[cors]
+allowed_origins = ["http://localhost:3000", "http://localhost:8000","http://localhost:8181",]
+
+[db]
+file = "/storage/monitor.bolt"
+test_file = "/storage/monitor.bolt"
+
+[aws]
+image_bucket = "monitor"

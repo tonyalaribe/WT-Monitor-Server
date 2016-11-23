@@ -1,0 +1,15 @@
+syntax = "proto3";
+package internal;
+
+message User {
+	string UserName = 1;
+}
+
+
+
+message Post {
+	string Type = 1;
+	string File = 2;
+	string Description = 3;
+	uint64 Key = 4;
+}
